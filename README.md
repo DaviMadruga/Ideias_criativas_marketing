@@ -85,7 +85,7 @@ protobuf==4.25.3
 ```
 
 # Link do Streamlit
-
+https://ideiascriativasmarketing-mu5yzt549knauijkgmn4m3.streamlit.app
 
 # 👨‍💻 Autor
 - Davi Madruga Cavalcanti
