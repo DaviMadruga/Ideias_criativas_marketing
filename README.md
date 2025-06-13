@@ -83,6 +83,10 @@ google-generativeai==0.7.2
 reportlab==4.1.0
 protobuf==4.25.3
 ```
+
+# Link do Streamlit
+
+
 # 👨‍💻 Autor
 - Davi Madruga Cavalcanti
 - Curso: Ciência da Computação
