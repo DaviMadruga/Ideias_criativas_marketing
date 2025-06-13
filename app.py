@@ -19,14 +19,16 @@ col1,col2,col3 = st.columns(3)
 with col1:
     foco = st.selectbox("Objetivo principal da campanha:", ["Engajamento","Conversão de vendas","Reconhecimento de Marca","Educação do Público"])
 with col2:
-    rede_social = st.selectbox("Escolha a rede social:",["Instagram","Twitter","Youtube","Facebook"])
+    rede_social = st.selectbox("Escolha a rede social:",["Instagram","Twitter","Youtube","TikTok","Facebook"])
 with col3:
     if rede_social == "Instagram":
-        tipo_postagem = st.selectbox("Escolha o tipo de postagem:",["Storys","Feed","Reels"])
+        tipo_postagem = st.multiselect("Escolha o tipo de postagem:",["Storys","Feed","Reels"])
     elif rede_social == "Twitter":
         tipo_postagem = st.selectbox("Escolha o tipo da postagem:",["Foto","Vídeo"])
     elif rede_social == "Youtube":
         tipo_postagem = st.selectbox("Escolha o tipo de postagem:",["Shorts","Vídeo"])
+    elif rede_social == "TikTok":
+        tipo_postagem = st.selectbox("Escolha o tipo de postagem:",["Vídeo"])
     else: 
         tipo_postagem = st.selectbox("Escolha o tipo de postagem:",["Foto","Vídeo"])
 
